@@ -28,7 +28,7 @@ class NitschesTreeViper(Snake):
         """
            
         if random.randint(0,10) < 2:
-            if random.randint(0,1) == 1:
+            if self.field.is_empty(self.dx-1,self.dy):
                 self.turn_left()
             else:
                 self.turn_right()
