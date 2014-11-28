@@ -12,12 +12,14 @@ import random
 
 from bolivianAnaconda import BolivianAnaconda
 from congoWaterCobra import CongoWaterCobra
+from boomslang import Boomslang
 
 # Nato v spisek SNAKES dodate razred, ki predstavlja vaso kaco
 
 SNAKES = [
     BolivianAnaconda,
     CongoWaterCobra,
+    Boomslang
 ]
 
 # Od tu naprej se ni treba nicesar dotikati
