@@ -13,6 +13,7 @@ import random
 from bolivianAnaconda import BolivianAnaconda
 from congoWaterCobra import CongoWaterCobra
 from nitschesTreeViper import NitschesTreeViper
+from boomslang import Boomslang
 
 
 # Nato v spisek SNAKES dodate razred, ki predstavlja vaso kaco
@@ -20,7 +21,8 @@ from nitschesTreeViper import NitschesTreeViper
 SNAKES = [
     BolivianAnaconda,
     CongoWaterCobra,
-    NitschesTreeViper
+    NitschesTreeViper,
+    Boomslang,
 ]
 
 # Od tu naprej se ni treba nicesar dotikati
