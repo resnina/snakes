@@ -27,8 +27,10 @@ class NitschesTreeViper(Snake):
            * spisek vseh kac je self.field.snakes
         """
            
-        if random.randint(0,10) < 5:
+        if random.randint(0,10) < 2:
             if random.randint(0,1) == 1:
                 self.turn_left()
             else:
                 self.turn_right()
+
+                
